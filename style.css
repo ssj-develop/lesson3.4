@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    margin: 0 auto;
+}
+
+.header {
+    width: 1440px;
+    background-color: black;
+    margin: 0 auto;
+    height: 90px;
+}
+.logo{
+    height: 80px;
+    width: 90px;
+    margin-left: 40px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.nav ul li{
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+
+}
+
+.header1 {
+    width: 1440px;
+    height: 594px;
+    margin: 0 auto;
+    background-image: url(bg\ fon.png);
+    padding: 37px 383px 88px 455px;
+}
+
+.div-position {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;    
+    background-color: white;
+}
+
+.div-position h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    
+}
+
+
+.div-main {
+    width: 1440px;
+    margin-top: 78px;
+    /* border: 2px solid green; */
+    height: 300px;
+    margin-left: -455px;
+    padding: 81px 101px 88px 87px;
+    display: flex;
+    gap: 230px;
+}
+
+.div-card {
+    height: 300px;
+    width: 320px;
+    /* border: 2px solid yellow; */
+}
+
+.div-mini {
+    width: 237px;
+    height: 209px;    
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+
+}
+
+.div-mini p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;   
+    color: #FF0606;
+    padding-top: 160px;
+}
+
+.div-mini1 {
+    width: 237px;
+    height: 209px;   
+    background-color: #F70101; 
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    position: relative;
+    left: 80px;
+    bottom: 300px;
+}
+
+.div-mini1 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;  
+    color: white;
+    padding-top: 90px;
+}
+
+.div-card2 {
+    width: 320px;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+
+.div-mini2 {
+    width: 237px;
+    height: 209px;
+    background: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+
+    position: relative;
+}
+
+.div-mini2 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FF0606;
+    text-shadow: 0px 4px 7.4px 0px #FFFFFF;
+    padding-top: 160px;
+}
+
+.div-mini22 {
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    background-color: #F70101;
+    position: relative;
+    right: 90px;
+    bottom: 300px;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+
+}
+
+.div-mini22 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 84px;
+}
+
+.div-mini3 {
+    width: 237px;
+    height: 209px;    
+    background-color: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+
+
+}
+
+.div-mini3 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;   
+    color: #FF0606;
+    padding-top: 160px;
+}
+
+.div-mini33 {
+    width: 237px;
+    height: 209px;   
+    background-color: #F70101; 
+    position: relative;
+    right: 80px;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    
+    bottom: 300px;
+}
+
+.div-mini33 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;  
+    color: white;
+    padding-top: 90px;
+}
+.sec{
+    background-color: black;
+    width: 1440px;
+    height: 720px;
+    
+}
+.sanjar h1{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+.sanjar{
+    padding-top: 50px;
+}
+.boxlar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-left: 87px;
+    margin-right: 83px;
+}
+.box{
+    width: 333px;
+    height: 290px;
+    background-color: brown;
+    color: white;
+    align-content: center;
+    
+    
+    
+}
+.h1{
+    margin-bottom: 50px;
+    margin-left: 137px;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+
+}
+.box p{
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    width: 250px;
+    height: 96px; 
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+}
+.box1{
+    width: 333px;
+    height: 290px;
+    background-color: brown;
+    color: white;
+    align-content: center;
+    
+}
+.box2{
+    width: 333px;
+    height: 290px;
+    background-color: brown;
+    color: white;
+    align-content: center;
+}
+.kichkina{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.blu{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.green{
+    width: 60px;
+    height: 60px;
+    background-color: #32FB00;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.blu1{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+.blu2{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+.red1{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+.red2{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+.red{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+.gren{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    position: relative;
+    right: 55px;
+    top: 8px;
+}
+.footer{
+    background-color: black;
+    width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+}
+.nav2 ul li{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 300px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2 img{
+    margin-left: 80px;
+    margin-right: 50px;
+}
